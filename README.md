@@ -23,7 +23,7 @@ This repository lists resources on the topic of guidance navigation and cotrol o
   * [Lunar Rover GNC](https://github.com/chandrabhraman/awesome-lunar-gnc-resources#Lunar-Rover-GNC)
       * [Guidance](https://github.com/chandrabhraman/awesome-lunar-gnc-resources#Guidance)
         * [Simulations](https://github.com/chandrabhraman/awesome-lunar-gnc-resources#Sensors)
-        * [Planetory surface models](https://github.com/chandrabhraman/awesome-lunar-gnc-resources#Sensors)
+        * [Planetary surface models](https://github.com/chandrabhraman/awesome-lunar-gnc-resources#Sensors)
       * [Navigation](https://github.com/chandrabhraman/awesome-lunar-gnc-resources#Navigation)
         * [Sensors](https://github.com/chandrabhraman/awesome-lunar-gnc-resources#Sensors)
       * [Control](https://github.com/chandrabhraman/awesome-lunar-gnc-resources#Control)
