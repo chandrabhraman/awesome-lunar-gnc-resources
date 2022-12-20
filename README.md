@@ -12,7 +12,7 @@ This repository lists resources on the topic of guidance navigation and cotrol o
         * [Sensors](https://github.com/chandrabhraman/awesome-lunar-gnc-resources#Sensors)
       * [Control](https://github.com/chandrabhraman/awesome-lunar-gnc-resources#Control)
         * [Actuators](https://github.com/chandrabhraman/awesome-lunar-gnc-resources#Actuators)
-    * [Descent/Landing](https://github.com/chandrabhraman/awesome-lunar-gnc-resources#Descent/Landing)
+    * [Descent And Landing](https://github.com/chandrabhraman/awesome-lunar-gnc-resources#Descent-And-Landing)
       * [Guidance](https://github.com/chandrabhraman/awesome-lunar-gnc-resources#Guidance)
         * [Simulations](https://github.com/chandrabhraman/awesome-lunar-gnc-resources#Sensors)
         * [Planetary surface models](https://github.com/chandrabhraman/awesome-lunar-gnc-resources#Sensors)
@@ -55,8 +55,12 @@ This repository compiles useful resources for lunar mission GNC:
 
 ### Orbital 
 #### Mission Planning
+* [General Mission Analysis Tool](https://sourceforge.net/projects/gmat/) -> Design high fidelity missions to the moon! | GMAT script, integrates Python and MATLAB®
 * [Translunar Trajectory Design and Optimization](https://in.mathworks.com/matlabcentral/fileexchange/73600-trans-lunar-trajectory-optimization-otb-mice-version?s_tid=srchtitle) -> Design preliminary lunar missions from Earth park orbit to B-plane encounter at the moon | MATLAB®
 * [Propagating Trajectories from the Earth to the Moon](https://in.mathworks.com/matlabcentral/fileexchange/43067-propagating-trajectories-from-the-earth-to-the-moon?s_tid=prof_contriblnk) -> Integrates geocentric orbital equations of motion of a trajectory from the Earth to the Moon | MATLAB®
 * [A MATLAB Script for Trans-Earth TCM Trajectory Optimization](https://in.mathworks.com/matlabcentral/fileexchange/93205-a-matlab-script-for-trans-earth-tcm-trajectory-optimization?s_tid=prof_contriblnk) ->  Design and optimize an impulsive trajectory correction maneuver (TCM) during the trans-Earth phase of lunar flight
 * [Predicting the Evolution of Lunar Orbits](https://in.mathworks.com/matlabcentral/fileexchange/40485-a-matlab-script-for-predicting-the-evolution-of-lunar-orbits?s_tid=prof_contriblnk) -> Predicts the long-term evolution of lunar orbits
 * [Parametric Analysis of TLI Delta-V Lunar Trajectories - OTB](https://in.mathworks.com/matlabcentral/fileexchange/73593-parametric-analysis-of-tli-delta-v-lunar-trajectories-otb?s_tid=prof_contriblnk) -> The software solves for the minimum TLI delta-v using a two-body Lambert solution for the transfer trajectory from the Earth park orbit to the center of the moon
+
+### Descent And Landing
+* [Apollo11 Landing Guidance](https://github.com/chrislgarry/Apollo-11/blob/master/Luminary099/LUNAR_LANDING_GUIDANCE_EQUATIONS.agc) -> Contains Guidance equations, Ignition Algorithm, Stopping Criteria, Surface-relative targeting, etc. 
