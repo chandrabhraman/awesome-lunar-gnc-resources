@@ -46,7 +46,7 @@ Lunar GN&C systems are typically used to:
 * Control the vehicle's attitude and orientation (i.e., its orientation in space) and control the vehicle's trajectory (i.e., its path through space)
 * Control the vehicle's propulsion system (e.g., its thrusters or engines)
 
-This repository compiles useful resources for lunar mission GNC: 
+This repository compiles useful Open Source resources for lunar mission GNC: 
 
 ## Spacecraft GNC
 
@@ -55,5 +55,6 @@ This repository compiles useful resources for lunar mission GNC:
 
 ### Orbital 
 #### Mission Planning
-[Translunar Trajectory Design and Optimization](https://in.mathworks.com/matlabcentral/fileexchange/73600-trans-lunar-trajectory-optimization-otb-mice-version?s_tid=srchtitle) -> Design preliminary lunar missions from Earth park orbit to B-plane encounter at the moon | MATLAB®
-
+* [Translunar Trajectory Design and Optimization](https://in.mathworks.com/matlabcentral/fileexchange/73600-trans-lunar-trajectory-optimization-otb-mice-version?s_tid=srchtitle) -> Design preliminary lunar missions from Earth park orbit to B-plane encounter at the moon | MATLAB®
+* [General Mission Analysis Tool](https://sourceforge.net/projects/gmat/) -> Design high fidelity missions to the moon! | GMAT script, integrates Python and MATLAB®
+* 
