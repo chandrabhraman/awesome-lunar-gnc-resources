@@ -5,9 +5,9 @@ This repository lists resources on the topic of guidance navigation and cotrol o
   * [Spacecraft GNC](https://github.com/chandrabhraman/awesome-lunar-gnc-resources#Spacecraft-GNC)
     * [Missions](https://github.com/chandrabhraman/awesome-lunar-gnc-resources#Missions)
     * [Orbital](https://github.com/chandrabhraman/awesome-lunar-gnc-resources#Orbital)
+      * [Mission Planning](https://github.com/chandrabhraman/awesome-lunar-gnc-resources#Mission-Planning)
       * [Guidance](https://github.com/chandrabhraman/awesome-lunar-gnc-resources#Guidance)
-        * [Simulation](https://github.com/chandrabhraman/awesome-lunar-gnc-resources#Simulation)
-        * [Mission Planning](https://github.com/chandrabhraman/awesome-lunar-gnc-resources#Mission-Planning)
+        * [Simulation](https://github.com/chandrabhraman/awesome-lunar-gnc-resources#Simulation)      
       * [Navigation](https://github.com/chandrabhraman/awesome-lunar-gnc-resources#Navigation)
         * [Sensors](https://github.com/chandrabhraman/awesome-lunar-gnc-resources#Sensors)
       * [Control](https://github.com/chandrabhraman/awesome-lunar-gnc-resources#Control)
@@ -51,7 +51,9 @@ This repository compiles useful resources for lunar mission GNC:
 ## Spacecraft GNC
 
 ### Missions
-
 [List of lunar missions](https://en.wikipedia.org/wiki/List_of_missions_to_the_Moon) -> Great summary of missions compiling spacecraft, launch date,	carrier rocket,	operator,	mission type and	outcome.
 
+### Orbital 
+#### Mission Planning
+[Translunar Trajectory Design and Optimization](https://in.mathworks.com/matlabcentral/fileexchange/73600-trans-lunar-trajectory-optimization-otb-mice-version?s_tid=srchtitle) -> Design preliminary lunar missions from Earth park orbit to B-plane encounter at the moon
 
