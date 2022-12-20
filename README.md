@@ -46,7 +46,7 @@ Lunar GN&C systems are typically used to:
 * Control the vehicle's attitude and orientation (i.e., its orientation in space) and control the vehicle's trajectory (i.e., its path through space)
 * Control the vehicle's propulsion system (e.g., its thrusters or engines)
 
-This repository compiles useful Open Source resources for lunar mission GNC: 
+This repository compiles useful resources for lunar mission GNC: 
 
 ## Spacecraft GNC
 
@@ -55,6 +55,8 @@ This repository compiles useful Open Source resources for lunar mission GNC:
 
 ### Orbital 
 #### Mission Planning
-* [Translunar Trajectory Design and Optimization](https://in.mathworks.com/matlabcentral/fileexchange/73600-trans-lunar-trajectory-optimization-otb-mice-version?s_tid=srchtitle) -> Design preliminary lunar missions from Earth park orbit to B-plane encounter at the moon | MATLAB®
-* [General Mission Analysis Tool](https://sourceforge.net/projects/gmat/) -> Design high fidelity missions to the moon! | GMAT script, integrates Python and MATLAB®
-* 
+[Translunar Trajectory Design and Optimization](https://in.mathworks.com/matlabcentral/fileexchange/73600-trans-lunar-trajectory-optimization-otb-mice-version?s_tid=srchtitle) -> Design preliminary lunar missions from Earth park orbit to B-plane encounter at the moon | MATLAB®
+[Propagating Trajectories from the Earth to the Moon](https://in.mathworks.com/matlabcentral/fileexchange/43067-propagating-trajectories-from-the-earth-to-the-moon?s_tid=prof_contriblnk) -> Integrates geocentric orbital equations of motion of a trajectory from the Earth to the Moon | MATLAB®
+[A MATLAB Script for Trans-Earth TCM Trajectory Optimization](https://in.mathworks.com/matlabcentral/fileexchange/93205-a-matlab-script-for-trans-earth-tcm-trajectory-optimization?s_tid=prof_contriblnk) ->  Design and optimize an impulsive trajectory correction maneuver (TCM) during the trans-Earth phase of lunar flight
+[Predicting the Evolution of Lunar Orbits](https://in.mathworks.com/matlabcentral/fileexchange/40485-a-matlab-script-for-predicting-the-evolution-of-lunar-orbits?s_tid=prof_contriblnk) -> Predicts the long-term evolution of lunar orbits
+[Parametric Analysis of TLI Delta-V Lunar Trajectories - OTB](https://in.mathworks.com/matlabcentral/fileexchange/73593-parametric-analysis-of-tli-delta-v-lunar-trajectories-otb?s_tid=prof_contriblnk) -> The software solves for the minimum TLI delta-v using a two-body Lambert solution for the transfer trajectory from the Earth park orbit to the center of the moon
