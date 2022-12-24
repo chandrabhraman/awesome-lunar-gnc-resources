@@ -1,4 +1,8 @@
-This repository lists FREE resources available ONLINE on the topic of guidance navigation and control of Moon lander and Rover.
+<p align="center">
+<img src="logo.png" width="700">
+</p>
+
+This repository lists FREE resources available ONLINE on the topic of guidance navigation and control for Moon landers, orbiters and rovers.
 
 # Table of contents
 * [Overview](https://github.com/chandrabhraman/awesome-lunar-gnc-resources#Overview)
