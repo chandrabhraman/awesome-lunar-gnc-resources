@@ -1,5 +1,5 @@
 <p align="center">
-<img src="logo-default.png" width="300">
+<img src="logo.png" width="300">
 </p>
 <p align="center">
     <em>This image was generated with the assistance of AI.</em>
