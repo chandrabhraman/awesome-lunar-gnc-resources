@@ -1,5 +1,8 @@
 <p align="center">
-<img src="logo.png" width="700">
+<img src="logo-default.png" width="300">
+</p>
+<p align="center">
+    <em>This image was generated with the assistance of AI.</em>
 </p>
 
 This repository lists FREE resources available ONLINE on the topic of guidance navigation and control for Moon landers, orbiters and rovers.
