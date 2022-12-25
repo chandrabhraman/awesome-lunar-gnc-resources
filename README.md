@@ -58,7 +58,9 @@ This repository compiles useful resources for lunar mission GNC:
 ## Spacecraft GNC
 
 ### Missions
-[List of lunar missions](https://en.wikipedia.org/wiki/List_of_missions_to_the_Moon) -> Great summary of missions compiling spacecraft, launch date,	carrier rocket,	operator,	mission type and	outcome.
+* [List of lunar missions](https://en.wikipedia.org/wiki/List_of_missions_to_the_Moon) -> Great summary of missions compiling spacecraft, launch date,	carrier rocket,	operator,	mission type and	outcome.
+
+* [Fun animation of the Luna 9 lander](https://www.youtube.com/watch?v=pDdWbrwsFTM) -> Covers the complex mission and landing sequence of the Luna 9 mission. 
 
 ### Orbital 
 #### Mission Planning
@@ -82,11 +84,20 @@ This repository compiles useful resources for lunar mission GNC:
 * [GFold terminal guidance](https://github.com/oyster-catcher/gfold) -> Compute fuel-optimal trajectory and generate thrust (constrain intial and final directions and magnitude) and angle (constrained) commands for a single throttleable engine spacecraft with independent attitude control. | Python
 
 #### Navigation
-* [Linear Covariance Analysis](https://github.com/openlunar/lincov) -> Linear covariance analysis tool for understanding navigation uncertainty for cislunar trajectory
+* [Linear Covariance Analysis](https://github.com/openlunar/lincov) -> Linear covariance analysis tool for understanding navigation uncertainty for cislunar trajectory | Python
+* [FederNet](https://github.com/UninaLabs-EO/FederNet) -> CNN based autonomous terrain-relative navigation for lunar landing | Python
+
+#### Control
+* 
 
 ### Lunar Rover GNC
 
 ## Courses
+
+* [Attitude control for space mission](https://www.coursera.org/learn/capstone-mars-mission) -> 5 week course for developing attiude control for space missions, applicable for lunar missions as well
+
+* 
+
 
 ## Podcasts or Talks
 
@@ -94,7 +105,7 @@ This repository compiles useful resources for lunar mission GNC:
 
 * [Programming the Moon Landing Guidance Computer | Don Eyles](https://www.youtube.com/watch?v=bsH5HbO7OPE) interview with Don Eyles, the programmer of the lunar landing Apollo missions, covers the braking maneuvers, abort logic, and much more!
 
-* [Chang'e 4 landing](https://www.youtube.com/watch?v=Hnf8-MIbuow) -> Describes the landing of Chang'e 4, landing site selection, powered descent, terminal phase described in reasonable detail
+* [Chang'e 4 landing](https://www.youtube.com/watch?v=Hnf8-MIbuow) -> Describes the landing of Chang'e 4, landing site selection, powered descent, terminal phase described in reasonable detail.
 
 ## Newsletters
 
