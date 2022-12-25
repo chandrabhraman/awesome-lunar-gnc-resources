@@ -92,6 +92,10 @@ This repository compiles useful resources for lunar mission GNC:
 
 * [Towards Autonomous Precision Lunar Landing](https://docs.google.com/presentation/d/e/2PACX-1vTJj2PLMM8m3H5_cqL_hTKUmryes4L8NuMojqLXx_lXmnx3Y6bgP3cNHxm2K0sKRoDLbL0gBGXb7iwg/pub?start=false&loop=false&delayms=3000#slide=id.g7d204c6de0_0_0) -> Dr A Kamath, UC Davis, Broad Guidance, Navigation and Control overview for lunar landers and hoppers
 
+* [Programming the Moon Landing Guidance Computer | Don Eyles](https://www.youtube.com/watch?v=bsH5HbO7OPE) interview with Don Eyles, the programmer of the lunar landing Apollo missions, covers the braking maneuvers, abort logic, and much more!
+
+* [Chang'e 4 landing](https://www.youtube.com/watch?v=Hnf8-MIbuow) -> Describes the landing of Chang'e 4, landing site selection, powered descent, terminal phase described in reasonable detail
+
 ## Newsletters
 
 ## Online communities
