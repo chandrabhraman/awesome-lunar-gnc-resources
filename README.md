@@ -113,6 +113,10 @@ This repository compiles useful resources for lunar mission GNC:
 
 ## Books
 
+* [(Aerospace Series) Ashish Tewari-Advanced Control of Aircraft, Spacecraft and Rockets-Wiley (2011)](https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&cad=rja&uact=8&ved=2ahUKEwiv9ZrqppT8AhXFWHwKHXf4DfgQFnoECAwQAQ&url=https%3A%2F%2Fwww.wiley.com%2Fen-in%2FAdvanced%2BControl%2Bof%2BAircraft%2C%2BSpacecraft%2Band%2BRockets-p-9780470745632&usg=AOvVaw0l-2EcRH6_L_rNNoY9HUm_) -> Optimal attitude control, Guidance, Terminal Guidance for spacecraft with MATLAB® codes
+
+* [Sidi, M. (1997). Spacecraft Dynamics and Control: A Practical Engineering Approach (Cambridge Aerospace Series). Cambridge: Cambridge University Press. doi:10.1017/CBO9780511815652](https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&cad=rja&uact=8&ved=2ahUKEwi9rOzjp5T8AhVfwnMBHR5SDCsQFnoECC4QAQ&url=https%3A%2F%2Fwww.cambridge.org%2Fcore%2Fbooks%2Fspacecraft-dynamics-and-control%2FE9CAEE81CD09527C99497FA8C7C35B0A&usg=AOvVaw1QtoA9nfInQvJqPAAQBVOQ) -> Great book for attitude control using thrusters
+
 ## Jobs
 
 ## Movers and shakers on Github
