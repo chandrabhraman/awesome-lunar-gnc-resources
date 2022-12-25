@@ -107,6 +107,10 @@ This repository compiles useful resources for lunar mission GNC:
 
 * [Chang'e 4 landing](https://www.youtube.com/watch?v=Hnf8-MIbuow) -> Describes the landing of Chang'e 4, landing site selection, powered descent, terminal phase described in reasonable detail.
 
+* [Apollo 11: The Moon Landing Mission]() from the "NASA InSight" podcast covers the guidance, navigation, and control systems used in the Apollo 11 mission, which was the first manned mission to land on the moon.
+
+* [Apollo 13: The Triumph of Navigation and Control](https://www.nasa.gov/sites/default/files/atoms/audio/ep139_apollo_13.mp3) -> from the "NASA InSight" podcast covers the guidance, navigation, and control systems used in the Apollo 13 mission, which was a lunar landing mission that was disrupted by a malfunction on the spacecraft.
+
 ## Newsletters
 
 ## Online communities
