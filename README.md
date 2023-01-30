@@ -113,6 +113,14 @@ This repository compiles useful resources for lunar mission GNC:
 
 ## Newsletters
 
+* [Observe The Moon newsletter](https://moon.nasa.gov/observe-the-moon-night/participate/newsletter/) -> Quaterly, NASA updates on lunar exploration
+
+* [Moon Monday](https://blog.jatan.space/s/moon-monday/archive) -> Weekly updates on global lunar exploration activities (comprehensive)
+
+* 
+
+
+
 ## Online communities
 
 ## Books
