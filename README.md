@@ -131,7 +131,14 @@ This repository compiles useful resources for lunar mission GNC:
 
 ## Jobs
 
+* [Careers In Space](https://www.careersin.space/job-listings/?_sft_job_listing_category=guidance-navigation-and-control-gnss) -> Plenty of lunar GNC jobs available, including from upstart space companies
+ 
+* [Indeed](https://www.indeed.com/jobs?q=Guidance+Navigation+Control+Lunar&l=&vjk=60cb2f00ade4873b) -> Comprehensive for US
+
+
 ## Movers and shakers on Github
+
+* []
 
 ## Companies & organisations on Github
 
