@@ -96,7 +96,6 @@ This repository compiles useful resources for lunar mission GNC:
 
 * [Attitude control for space mission](https://www.coursera.org/learn/capstone-mars-mission) -> 5 week course for developing attiude control for space missions, applicable for lunar missions as well
 
-* 
 
 
 ## Podcasts or Talks
@@ -138,7 +137,8 @@ This repository compiles useful resources for lunar mission GNC:
 
 ## Movers and shakers on Github
 
-* []
+* [Chris Rabotin](https://mobile.twitter.com/CRabotin) -> GNC engineer on various moon landers
+* [Lockheed Martin Space](https://mobile.twitter.com/LMSpace) -> Some of the best in the business
 
 ## Companies & organisations on Github
 
