@@ -134,6 +134,7 @@ This repository compiles useful resources for lunar mission GNC:
 
 ## Movers and shakers on Github
 
+* [Time Craine](https://twitter.com/craintim) -> Real-time GNC systems for Intuitive Machines, private moon lander developers
 * [Chris Rabotin](https://mobile.twitter.com/CRabotin) -> GNC engineer on various moon landers
 * [Lockheed Martin Space](https://mobile.twitter.com/LMSpace) -> Some of the best in the business
 
