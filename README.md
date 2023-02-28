@@ -116,9 +116,6 @@ This repository compiles useful resources for lunar mission GNC:
 
 * [Moon Monday](https://blog.jatan.space/s/moon-monday/archive) -> Weekly updates on global lunar exploration activities (comprehensive)
 
-* 
-
-
 
 ## Online communities
 
