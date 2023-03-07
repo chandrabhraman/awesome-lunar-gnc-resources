@@ -13,20 +13,11 @@ This repository lists FREE resources available ONLINE on the topic of guidance n
     * [Missions](https://github.com/chandrabhraman/awesome-lunar-gnc-resources#Missions)
     * [Orbital](https://github.com/chandrabhraman/awesome-lunar-gnc-resources#Orbital)
       * [Mission Planning](https://github.com/chandrabhraman/awesome-lunar-gnc-resources#Mission-Planning)
-      * [Guidance](https://github.com/chandrabhraman/awesome-lunar-gnc-resources#Guidance)
-        * [Simulation](https://github.com/chandrabhraman/awesome-lunar-gnc-resources#Simulation)      
-      * [Navigation](https://github.com/chandrabhraman/awesome-lunar-gnc-resources#Navigation)
-        * [Sensors](https://github.com/chandrabhraman/awesome-lunar-gnc-resources#Sensors)
-      * [Control](https://github.com/chandrabhraman/awesome-lunar-gnc-resources#Control)
-        * [Actuators](https://github.com/chandrabhraman/awesome-lunar-gnc-resources#Actuators)
+      * [Guidance,Navigation and Control](https://github.com/chandrabhraman/awesome-lunar-gnc-resources#Guidance-Navigation-and-Control)
+        
     * [Descent And Landing](https://github.com/chandrabhraman/awesome-lunar-gnc-resources#Descent-And-Landing)
-      * [Guidance](https://github.com/chandrabhraman/awesome-lunar-gnc-resources#Guidance)
-        * [Simulations](https://github.com/chandrabhraman/awesome-lunar-gnc-resources#Sensors)
-        * [Planetary surface models](https://github.com/chandrabhraman/awesome-lunar-gnc-resources#Sensors)
-      * [Navigation](https://github.com/chandrabhraman/awesome-lunar-gnc-resources#Navigation)
-        * [Sensors](https://github.com/chandrabhraman/awesome-lunar-gnc-resources#Sensors)
-      * [Control](https://github.com/chandrabhraman/awesome-lunar-gnc-resources#Control)
-        * [Actuators](https://github.com/chandrabhraman/awesome-lunar-gnc-resources#Actuators)
+      * [Guidance,Navigation and Control](https://github.com/chandrabhraman/awesome-lunar-gnc-resources#Guidance-Navigation-and-Control)
+       
   * [Lunar Rover GNC](https://github.com/chandrabhraman/awesome-lunar-gnc-resources#Lunar-Rover-GNC)
       * [Guidance](https://github.com/chandrabhraman/awesome-lunar-gnc-resources#Guidance)
         * [Simulations](https://github.com/chandrabhraman/awesome-lunar-gnc-resources#Sensors)
@@ -76,19 +67,14 @@ This repository compiles useful resources for lunar mission GNC:
 * [Orbital Dynamics functions](https://github.com/cisprague/Spacecraft_Testbed/tree/master/Spacecraft_Testbed) -> Generate standard accelerations for mission design.
 
 ### Descent And Landing
-#### Guidance
+#### Guidance, Navigation and Control
 * [Apollo 11 Landing Guidance](https://github.com/chrislgarry/Apollo-11/blob/master/Luminary099/LUNAR_LANDING_GUIDANCE_EQUATIONS.agc), [Full repo](https://github.com/chrislgarry/Apollo-11), [Compile Software](https://github.com/virtualagc/virtualagc) -> Contains Guidance equations, Ignition Algorithm, Stopping Criteria, Surface-relative targeting, etc. | AGC source code
 * [Surveyor Mission Landing Guidance](https://github.com/thomasantony/surveyor) -> Designed as an Orbiter addon that demonstrates the Surveyor lunar probe landing guidance | RUST
-##### Simulations
 * [Spaceflight simulation game in which you take control of a lunar lander at the final phases of its landing burn](https://github.com/arda-guler/miniLanding3D)
 * [GFold terminal guidance](https://github.com/oyster-catcher/gfold) -> Compute fuel-optimal trajectory and generate thrust (constrain intial and final directions and magnitude) and angle (constrained) commands for a single throttleable engine spacecraft with independent attitude control. | Python
-
-#### Navigation
 * [Linear Covariance Analysis](https://github.com/openlunar/lincov) -> Linear covariance analysis tool for understanding navigation uncertainty for cislunar trajectory | Python
 * [FederNet](https://github.com/UninaLabs-EO/FederNet) -> CNN based autonomous terrain-relative navigation for lunar landing | Python
 
-#### Control
-* 
 
 ### Lunar Rover GNC
 
@@ -119,11 +105,13 @@ This repository compiles useful resources for lunar mission GNC:
 
 ## Online communities
 
-## Books
+## Books & Papers
 
 * [(Aerospace Series) Ashish Tewari-Advanced Control of Aircraft, Spacecraft and Rockets-Wiley (2011)](https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&cad=rja&uact=8&ved=2ahUKEwiv9ZrqppT8AhXFWHwKHXf4DfgQFnoECAwQAQ&url=https%3A%2F%2Fwww.wiley.com%2Fen-in%2FAdvanced%2BControl%2Bof%2BAircraft%2C%2BSpacecraft%2Band%2BRockets-p-9780470745632&usg=AOvVaw0l-2EcRH6_L_rNNoY9HUm_) -> Optimal attitude control, Guidance, Terminal Guidance for spacecraft with MATLAB® codes
 
 * [Sidi, M. (1997). Spacecraft Dynamics and Control: A Practical Engineering Approach (Cambridge Aerospace Series). Cambridge: Cambridge University Press. doi:10.1017/CBO9780511815652](https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&cad=rja&uact=8&ved=2ahUKEwi9rOzjp5T8AhVfwnMBHR5SDCsQFnoECC4QAQ&url=https%3A%2F%2Fwww.cambridge.org%2Fcore%2Fbooks%2Fspacecraft-dynamics-and-control%2FE9CAEE81CD09527C99497FA8C7C35B0A&usg=AOvVaw1QtoA9nfInQvJqPAAQBVOQ) -> Great book for attitude control using thrusters
+
+* [Guidance Navigation and Control for Chang’E-5 Powered Descent](https://spj.science.org/doi/10.34133/2021/9823609)
 
 ## Jobs
 
