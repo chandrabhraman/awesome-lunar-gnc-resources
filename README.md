@@ -131,6 +131,9 @@ This repository compiles useful resources for lunar mission GNC:
 * [Time Craine](https://twitter.com/craintim) -> Real-time GNC systems for Intuitive Machines, private moon lander developers
 * [Chris Rabotin](https://mobile.twitter.com/CRabotin) -> GNC engineer on various moon landers
 * [Lockheed Martin Space](https://mobile.twitter.com/LMSpace) -> Some of the best in the business
+* [Hakuto lander](https://twitter.com/ispace_HAKUTO_R) -> Commercial lunar landers from Japan
+* [Masten](https://twitter.com/mastenspace) -> Private landing technologies, gimbled single throttleable engines
+
 
 ## Companies & organisations on Github
 
