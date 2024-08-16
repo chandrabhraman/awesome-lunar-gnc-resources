@@ -87,9 +87,6 @@ This repository compiles useful resources for lunar mission GNC:
 ## Chandrabhraman resources
 
 * [Lunar Reconnaisance Orbiter GNC analysis](https://github.com/chandrabhraman/lro-analysis) -> tools for accessing the SPICE ephemeris data for LRO and looks at analysing the pointing and rate control of the spacecraft. 
-* [Star Sensor model]() -> to setup attitude control simulations with star sensor simulated readings to test your algorithm -> IN PROGRESS
-* [Sun Sensor]() -> to setup attitude control simulations with coarse estimation sun sensor simulated readings to test your algorithm -> IN PROGRESS
-* [EKF Star Sensor + IMU fusion for Satellites] -> Control algorithm for fine attitude estimation -> IN PROGRESS 
 
 ## Podcasts or Talks
 
