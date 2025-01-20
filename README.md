@@ -76,7 +76,7 @@ This repository compiles useful resources for lunar mission GNC:
 * [GFold terminal guidance](https://github.com/oyster-catcher/gfold) -> Compute fuel-optimal trajectory and generate thrust (constrain intial and final directions and magnitude) and angle (constrained) commands for a single throttleable engine spacecraft with independent attitude control. | Python
 * [Linear Covariance Analysis](https://github.com/openlunar/lincov) -> Linear covariance analysis tool for understanding navigation uncertainty for cislunar trajectory | Python
 * [FederNet](https://github.com/UninaLabs-EO/FederNet) -> CNN based autonomous terrain-relative navigation for lunar landing | Python
-
+* [Lunar Descent Fuel-optimized guidance](https://jckantor.github.io/CBE30338/07.02-Soft-Landing-a-Rocket.html) -> Lunar descent guidance optimization scripts using Pyomo.
 
 ### Lunar Rover GNC
 
