@@ -62,6 +62,8 @@ This repository compiles useful resources for lunar mission GNC:
 * [NASA PDS Lunar Data Node](https://pds-lunar.jpl.nasa.gov/) -> Access point for data from numerous past and present lunar missions (LRO, Apollo, Clementine, LCROSS, etc.). Crucial for GNC development and validation.
 * [Apollo Lunar Surface Journal](https://www.hq.nasa.gov/alsj/) -> Detailed transcripts, commentary, images, and video from the Apollo lunar surface missions, including GNC operations discussions.
 * [Artemis Program](https://www.nasa.gov/specials/artemis/) -> Official NASA site for the ongoing Artemis program, including mission updates, objectives, and related technology development (including GNC).
+* [ISRO Chandrayaan-3 Mission Page](https://www.isro.gov.in/Chandrayaan3.html) -> Official Indian Space Research Organisation page for Chandrayaan-3, includes mission objectives, updates, and image galleries related to the successful landing.
+* [CNSA Lunar Exploration Program (CLEP)](http://www.cnsa.gov.cn/english/index.html) -> Official China National Space Administration site (English version). Look for mission descriptions and press releases on Chang'e missions (though detailed technical GNC info is limited).
 
 ### Orbital
 #### Mission Planning
@@ -105,7 +107,7 @@ This repository compiles useful resources for lunar mission GNC:
 #### Simulators & Testbeds (Landing) <a name="Simulators--Testbeds-Landing"></a>
 * [Spaceflight simulation game in which you take control of a lunar lander at the final phases of its landing burn](https://github.com/arda-guler/miniLanding3D) -> Simple game demonstrating landing dynamics. | C++ (likely, based on typical game dev)
 * [Basilisk Lander Module](https://basilisk-sim.readthedocs.io/en/latest/Tutorials/tutorial_LunarLander.html) -> Specific tutorial and modules within Basilisk for simulating powered lunar descent GNC. | Python, C++
-* [Habitat reconfiguration dynamics and control testbed](https://ntrs.nasa.gov/citations/20170001195) -> Paper discussing a physical testbed, concepts might be adaptable.
+* [Habitat reconfiguration dynamics and control testbed](https://ntrs.nasa.gov/citations/20170001195) -> Paper discussing a physical testbed, concepts might be adaptable. [Open Access via NTRS]
 * [Kerbal Space Program (with realism mods)](https://www.kerbalspaceprogram.com/) -> While a game, mods like Principia (N-body gravity) and Realism Overhaul make it a surprisingly useful (and challenging) educational tool for understanding orbital mechanics and landing GNC concepts.
 
 #### Terrain Relative Navigation (TRN) & Hazard Detection <a name="Terrain-Relative-Navigation-TRN--Hazard-Detection"></a>
@@ -117,11 +119,12 @@ This repository compiles useful resources for lunar mission GNC:
 * [PLIA (Planetary Lunar Image Analysis) tool](https://github.com/esa/PLIA) -> ESA tool for analysing planetary images, potentially useful for map generation or feature identification. | Python
 
 #### Datasets & Maps (for Landing) <a name="Datasets--Maps-for-Landing"></a>
-* [LRO LOLA DEMs](https://pds-geosciences.wustl.edu/lro/lro-l-lola-3-rdr-v1/lrolol_1xxx/data/) -> High-resolution Digital Elevation Models from the Lunar Reconnaissance Orbiter Laser Altimeter. Essential for TRN map matching and hazard detection simulation.
-* [LRO LROC NAC Images](https://pds-imaging.jpl.nasa.gov/volumes/lro.html) -> High-resolution Narrow Angle Camera images from LRO, used for visual navigation, base map creation, and hazard assessment.
-* [USGS Unified Moon Map](https://www.usgs.gov/centers/astrogeology-science-center/science/moon-geologic-map) -> Various geological and topographic maps of the Moon.
-* [Moon Trek](https://trek.nasa.gov/moon/) -> NASA web portal for accessing and visualizing lunar data layers (imagery, elevation, slopes, etc.). Can download data.
-* [QuickMap](https://quickmap.lroc.asu.edu/) -> LROC tool for browsing and downloading LRO NAC and WAC images and LOLA data.
+* [LRO LOLA DEMs](https://pds-geosciences.wustl.edu/lro/lro-l-lola-3-rdr-v1/lrolol_1xxx/data/) -> High-resolution Digital Elevation Models from the Lunar Reconnaissance Orbiter Laser Altimeter. Essential for TRN map matching and hazard detection simulation. [Open Access via NASA PDS]
+* [LRO LROC NAC Images](https://pds-imaging.jpl.nasa.gov/volumes/lro.html) -> High-resolution Narrow Angle Camera images from LRO, used for visual navigation, base map creation, and hazard assessment. [Open Access via NASA PDS]
+* [USGS Unified Moon Map](https://www.usgs.gov/centers/astrogeology-science-center/science/moon-geologic-map) -> Various geological and topographic maps of the Moon. [Open Access via USGS]
+* [Moon Trek](https://trek.nasa.gov/moon/) -> NASA web portal for accessing and visualizing lunar data layers (imagery, elevation, slopes, etc.). Can download data. [Open Access Portal]
+* [QuickMap](https://quickmap.lroc.asu.edu/) -> LROC tool for browsing and downloading LRO NAC and WAC images and LOLA data. [Open Access Portal]
+* [SLDEM2015: Global lunar DEM (118m) and derived products](https://astrogeology.usgs.gov/search/map/Moon/LRO/LOLA/SLDEM2015_118m_ClrShade) -> Derived from LOLA data, widely used basemap. [Open Access via USGS]
 
 ### Lunar Rover GNC
 
@@ -130,17 +133,19 @@ This repository compiles useful resources for lunar mission GNC:
 * [OMPL (Open Motion Planning Library)](https://ompl.kavrakilab.org/) -> State-of-the-art sampling-based motion planning algorithms. Integrates with ROS. | C++
 * [PyRoboPlan](https://github.com/aescande/pyroboplan) -> Python based motion planning library including RRT, RRT*. | Python
 * [AI Planning Tools (PDDL based)](https://github.com/potassco/clingo) -> For higher-level task planning which informs guidance objectives. Answer Set Programming tools like Clingo are relevant. | Python interfaces exist
-* [Slope and Hazard Maps (derived from DEMs)](https://trek.nasa.gov/moon/) -> Use tools like Moon Trek or GDAL to derive slope, roughness, and identify hazards from LOLA DEMs for traversability analysis.
+* [Slope and Hazard Maps (derived from DEMs)](https://trek.nasa.gov/moon/) -> Use tools like Moon Trek or GDAL to derive slope, roughness, and identify hazards from LOLA DEMs for traversability analysis. [Open Access Data]
 
 #### Simulations (Rover) <a name="Simulations-Rover"></a>
 * [Gazebo Simulator](http://gazebosim.org/) -> Widely used robotics simulator with ROS integration. Can model rover dynamics, sensors (cameras, IMUs, LiDAR), and lunar terrain. | C++
 * [Ignition Gazebo](https://ignitionrobotics.org/) -> Successor to Gazebo, modular architecture. | C++
 * [Webots](https://cyberbotics.com/) -> Open-source robot simulator, supports ROS, can model planetary environments. | C++, Python, MATLAB
 * [PyBullet](https://pybullet.org/wordpress/) -> Python module for physics simulation, robotics, and ML. Can be used for simpler rover dynamics simulations. | Python
+* [Chrono::Vehicle](https://github.com/projectchrono/chrono-vehicle) -> Part of Project Chrono physics engine, specialized for vehicle dynamics including tracked/wheeled vehicles on deformable terrain. | C++
 
 #### Planetary surface models & Datasets (Rover) <a name="Planetary-surface-models--Datasets-Rover"></a>
-* [LOLA DEMs and LROC NAC Images](https://github.com/chandrabhraman/awesome-lunar-gnc-resources#Datasets--Maps-for-Landing) -> As listed above, essential for creating realistic rover simulation environments and navigation base maps.
-* [USGS Astrogeology Science Center](https://www.usgs.gov/centers/astrogeology-science-center) -> Source for various planetary maps and DEMs, including the Moon.
+* [LOLA DEMs and LROC NAC Images](https://github.com/chandrabhraman/awesome-lunar-gnc-resources#Datasets--Maps-for-Landing) -> As listed above, essential for creating realistic rover simulation environments and navigation base maps. [Open Access Data]
+* [USGS Astrogeology Science Center](https://www.usgs.gov/centers/astrogeology-science-center) -> Source for various planetary maps and DEMs, including the Moon. [Open Access Data]
+* [Planetary Computer Datasets](https://planetarycomputer.microsoft.com/catalog) -> Microsoft's collection includes lunar DEMs and imagery, accessible via API. [Open Access Portal]
 
 #### Navigation (Localization & Mapping) <a name="Navigation-Localization--Mapping"></a>
 * [ROS `robot_localization`](http://wiki.ros.org/robot_localization) -> Package for fusing data from various sensors (IMU, odometry, visual odometry, GPS-like systems) using Extended Kalman Filters (EKFs) or Unscented Kalman Filters (UKFs). | C++
@@ -166,16 +171,27 @@ This repository compiles useful resources for lunar mission GNC:
 
 #### Actuators & Locomotion <a name="Actuators--Locomotion"></a>
 * [Gazebo Plugins](http://gazebosim.org/tutorials?tut=ros_control) -> Examples of how to model actuators (motors, joints) and interface them with `ros_control` within the Gazebo simulator.
-* [Wheel-Soil Interaction Models](https://www.isprs.org/proceedings/xxxvii/congress/1b_pdf/86.pdf) -> Research area, often involves custom models or simplified physics engine approximations (e.g., tuning friction parameters in Gazebo/Bullet). Papers and specialized codebases exist but less standardized open source.
+* [Wheel-Soil Interaction Models](https://www.isprs.org/proceedings/xxxvii/congress/1b_pdf/86.pdf) -> Research area, often involves custom models or simplified physics engine approximations (e.g., tuning friction parameters in Gazebo/Bullet). Papers and specialized codebases exist but less standardized open source. [Example Open Access Paper]
+
+## Core Libraries & Frameworks
+
+* [Poliastro](https://github.com/poliastro/poliastro) -> Python library for Astrodynamics.
+* [Orekit](https://www.orekit.org/) -> Java library for low-level space dynamics.
+* [Basilisk](https://github.com/AVSLab/basilisk) -> Python/C++ framework for astrodynamics simulation.
+* [SPICE Toolkit](https://naif.jpl.nasa.gov/naif/toolkit.html) -> NASA toolkit for space geometry/time data.
+* [NASA cFS](https://github.com/nasa/cFS) -> NASA's reusable flight software framework.
+* [ROS (Robot Operating System)](http://www.ros.org/) -> Framework for robotics software development (essential for rovers).
+* [OpenCV](https://opencv.org/) -> Library for computer vision (TRN, VO, SLAM).
+* [PCL (Point Cloud Library)](https://pointclouds.org/) -> Library for point cloud processing (TRN, SLAM).
 
 ## Courses
 
-* [Attitude control for space mission](https://www.coursera.org/learn/capstone-mars-mission) -> 5 week course for developing attitude control for space missions, applicable for lunar missions as well.
-* [MIT OpenCourseWare - Astrodynamics](https://ocw.mit.edu/courses/16-346-astrodynamics-fall-2008/) -> Lecture notes and assignments from MIT's Astrodynamics course.
-* [MIT OpenCourseWare - Estimation and Control of Aerospace Systems](https://ocw.mit.edu/courses/16-323-estimation-and-control-of-aerospace-systems-spring-2019/) -> Covers Kalman filtering and control theory relevant to GNC.
-* [CU Boulder - Statistical Estimation for Aerospace Systems](https://www.coursera.org/learn/state-estimation-localization-self-driving-cars) -> Covers Kalman/Bayesian filtering with aerospace applications (though framed for self-driving cars, principles apply).
-* [ESA - Basics of Spaceflight](https://www.esa.int/Education/Basics_of_spaceflight/Basics_of_spaceflight) -> Foundational knowledge from ESA.
-* [edX Space Mission Design and Operations](https://www.edx.org/xseries/delftx-space-mission-design-operations) -> Professional certificate covering mission design aspects.
+* [Attitude control for space mission](https://www.coursera.org/learn/capstone-mars-mission) -> 5 week course for developing attitude control for space missions, applicable for lunar missions as well. (Coursera course, may require payment/subscription for full access).
+* [MIT OpenCourseWare - Astrodynamics](https://ocw.mit.edu/courses/16-346-astrodynamics-fall-2008/) -> Lecture notes and assignments from MIT's Astrodynamics course. [Open Access]
+* [MIT OpenCourseWare - Estimation and Control of Aerospace Systems](https://ocw.mit.edu/courses/16-323-estimation-and-control-of-aerospace-systems-spring-2019/) -> Covers Kalman filtering and control theory relevant to GNC. [Open Access]
+* [CU Boulder - Statistical Estimation for Aerospace Systems](https://www.coursera.org/learn/state-estimation-localization-self-driving-cars) -> Covers Kalman/Bayesian filtering with aerospace applications (though framed for self-driving cars, principles apply). (Coursera course, may require payment/subscription).
+* [ESA - Basics of Spaceflight](https://www.esa.int/Education/Basics_of_spaceflight/Basics_of_spaceflight) -> Foundational knowledge from ESA. [Open Access]
+* [edX Space Mission Design and Operations (DelftX)](https://www.edx.org/school/delftx) -> Search for current space-related courses and MicroMasters programs offered by TU Delft on edX. The original XSeries link is deprecated. (edX courses often have audit options but may require payment for full access/certificate).
 
 ## Chandrabhraman resources
 
@@ -183,43 +199,88 @@ This repository compiles useful resources for lunar mission GNC:
 
 ## Podcasts or Talks
 
-* [Towards Autonomous Precision Lunar Landing](https://docs.google.com/presentation/d/e/2PACX-1vTJj2PLMM8m3H5_cqL_hTKUmryes4L8NuMojqLXx_lXmnx3Y6bgP3cNHxm2K0sKRoDLbL0gBGXb7iwg/pub?start=false&loop=false&delayms=3000#slide=id.g7d204c6de0_0_0) -> Dr A Kamath, UC Davis, Broad Guidance, Navigation and Control overview for lunar landers and hoppers
-* [Programming the Moon Landing Guidance Computer | Don Eyles](https://www.youtube.com/watch?v=bsH5HbO7OPE) interview with Don Eyles, the programmer of the lunar landing Apollo missions, covers the braking maneuvers, abort logic, and much more!
-* [Chang'e 4 landing](https://www.youtube.com/watch?v=Hnf8-MIbuow) -> Describes the landing of Chang'e 4, landing site selection, powered descent, terminal phase described in reasonable detail.
-* [Apollo 11: The Moon Landing Mission](https://www.nasa.gov/johnson/HWHAP/apollo-11) -> While the original podcast link might be broken, NASA archives often contain audio/video covering Apollo GNC. (Search NASA archives).
-* [Apollo 13: The Triumph of Navigation and Control](https://www.nasa.gov/sites/default/files/atoms/audio/ep139_apollo_13.mp3) -> from the "NASA InSight" podcast covers the guidance, navigation, and control systems used in the Apollo 13 mission, which was a lunar landing mission that was disrupted by a malfunction on the spacecraft.
-* [The Orbital Mechanics Podcast](https://theorbitalmechanics.com/) -> Covers spaceflight news and concepts, often touching on GNC topics.
-* [Main Engine Cut Off (MECO) Podcast](https://mainenginecutoff.com/) -> In-depth analysis of spaceflight news, policy, and technology, including lunar missions.
-* [Planetary Radio](https://www.planetary.org/planetary-radio) -> Covers space exploration broadly, features interviews with scientists and engineers involved in lunar missions.
+* [Towards Autonomous Precision Lunar Landing (Slides)](https://docs.google.com/presentation/d/e/2PACX-1vTJj2PLMM8m3H5_cqL_hTKUmryes4L8NuMojqLXx_lXmnx3Y6bgP3cNHxm2K0sKRoDLbL0gBGXb7iwg/pub?start=false&loop=false&delayms=3000#slide=id.g7d204c6de0_0_0) -> Dr A Kamath, UC Davis, Broad Guidance, Navigation and Control overview for lunar landers and hoppers [Open Access Slides]
+* [Programming the Moon Landing Guidance Computer | Don Eyles (Video)](https://www.youtube.com/watch?v=bsH5HbO7OPE) -> Interview with Don Eyles, the programmer of the lunar landing Apollo missions, covers the braking maneuvers, abort logic, and much more! [Open Access Video]
+* [Chang'e 4 landing (Video)](https://www.youtube.com/watch?v=Hnf8-MIbuow) -> Describes the landing of Chang'e 4, landing site selection, powered descent, terminal phase described in reasonable detail. [Open Access Video]
+* [Apollo 11: The Moon Landing Mission (Podcast Episode)](https://www.nasa.gov/podcasts/houston-we-have-a-podcast/apollo-11-the-mission) -> Example link to NASA's "Houston We Have a Podcast". Search NASA archives (e.g., `archive.org`, NASA site search) for more historical audio/video on Apollo GNC. [Open Access Audio/Video]
+* [Apollo 13: The Triumph of Navigation and Control (Podcast Audio)](https://www.nasa.gov/sites/default/files/atoms/audio/ep139_apollo_13.mp3) -> from the "NASA InSight" podcast covers the guidance, navigation, and control systems used in the Apollo 13 mission. [Open Access Audio]
+* [The Orbital Mechanics Podcast](https://theorbitalmechanics.com/) -> Covers spaceflight news and concepts, often touching on GNC topics. [Free Podcast]
+* [Main Engine Cut Off (MECO) Podcast](https://mainenginecutoff.com/) -> In-depth analysis of spaceflight news, policy, and technology, including lunar missions. [Free Podcast]
+* [Planetary Radio](https://www.planetary.org/planetary-radio) -> Covers space exploration broadly, features interviews with scientists and engineers involved in lunar missions. [Free Podcast]
+* [Figuring Out Chandrayaan-3's Landing Algorithm | Spacecraft GNC Ep.1](https://www.youtube.com/watch?v=y3b7k47ZqLU) -> Explores the GNC algorithm potentially used for the Chandrayaan-3 lunar landing. [Open Access Video]
+* [Apollo Spacecraft GNC System Premier](https://www.youtube.com/watch?v=6_313RjGzP8) -> Provides a basic overview of the Apollo Guidance, Navigation, and Control system. [Open Access Video]
+* [Apollo GNC Tutorials (Example: P52 IMU Alignment)](https://www.youtube.com/watch?v=KqB6y7Z0fXg) -> Offers specific tutorials on using the Apollo GNC system (search YouTube for "Apollo GNC Tutorials Nuclear and Space Education" for more). [Open Access Video]
+* [Light Years Ahead | The 1969 Apollo Guidance Computer](https://www.youtube.com/watch?v=xx7Lfh5SKUQ) -> Discusses the AGC's crucial role in guidance, navigation, and control. [Open Access Video]
+* [How NASA Modeled Artemis I in MATLAB and Simulink](https://www.mathworks.com/videos/how-nasa-modeled-artemis-i-in-matlab-and-simulink-1671013335187.html) -> Explains modeling and validation of the GNC system for the Artemis I Orion spacecraft. [Free Video (MathWorks site)]
+* [Robotic Lunar Lander (APL/NASA Marshall)](https://www.youtube.com/watch?v=Yh33-86LhVg) -> Discusses development of GNC for autonomous precision landings (e.g., Mighty Eagle). [Open Access Video]
+* [The Intuitive Machines Lunar Lander Is About To Attempt Touchdown (IM-1 Odysseus)](https://www.youtube.com/watch?v=2jH6L4w7ZzI) -> Explains the final descent phase, role of GNC, TRN, and hazard detection for the IM-1 landing. [Open Access Video]
+* [SpaceIL Beresheet Lunar Lander Telemetry Visualization](https://www.youtube.com/watch?v=QfkWSkeLZFU) -> Visualization of telemetry during the Beresheet landing attempt, highlighting GNC issues. [Open Access Video]
+* [Beresheet - Final commands before landing on the Moon](https://www.youtube.com/watch?v=Qfh4adGNMAw) -> Mission control perspective during Beresheet landing attempt, referencing GNC malfunctions. [Open Access Video]
+* [Analysis of Chandrayaan 2 (Vikram) landing failure](https://www.youtube.com/watch?v=kBE9z3hHz0Y) -> Analysis of telemetry data discussing potential GNC issues during Vikram's landing attempt. [Open Access Video]
+* [Japan's SLIM Moon lander landing animation with GNC focus](https://www.youtube.com/watch?v=nvFdnqd-9ZI) -> Official JAXA animation showing SLIM's planned pinpoint landing sequence, highlighting image-based navigation and hazard avoidance (GNC functions). [Open Access Video]
+* [Firefly Aerospace Blue Ghost Mission 1 Animation](https://www.youtube.com/watch?v=z8jMIhZE5uQ) -> Animation showing the planned mission profile for Firefly's Blue Ghost lander, including the GNC-dependent powered descent phase. [Open Access Video]
 
 ## Newsletters
 
-* [Observe The Moon newsletter](https://moon.nasa.gov/observe-the-moon-night/participate/newsletter/) -> Quaterly, NASA updates on lunar exploration
-* [Moon Monday](https://blog.jatan.space/s/moon-monday/archive) -> Weekly updates on global lunar exploration activities (comprehensive)
-* [Orbital Index](https://orbitalindex.com/) -> Weekly newsletter curating space news and links, often includes GNC-relevant topics and open source projects.
-* [Payload Space](https://payloadspace.com/) -> Daily newsletter covering the business and policy of space, often relevant context for lunar missions.
+* [Observe The Moon newsletter](https://moon.nasa.gov/observe-the-moon-night/participate/newsletter/) -> Quaterly, NASA updates on lunar exploration [Free Signup]
+* [Moon Monday](https://blog.jatan.space/s/moon-monday/archive) -> Weekly updates on global lunar exploration activities (comprehensive) [Free Signup]
+* [Orbital Index](https://orbitalindex.com/) -> Weekly newsletter curating space news and links, often includes GNC-relevant topics and open source projects. [Free Signup]
+* [Payload Space](https://payloadspace.com/) -> Daily newsletter covering the business and policy of space, often relevant context for lunar missions. [Free Signup]
 
 ## Online communities
 
-* [Reddit r/space](https://www.reddit.com/r/space/) -> General space news and discussion.
-* [Reddit r/aerospaceengineering](https://www.reddit.com/r/AerospaceEngineering/) -> More technical discussions, including GNC topics.
-* [Reddit r/robotics](https://www.reddit.com/r/robotics/) -> Relevant for rover GNC, simulation, perception, and control.
-* [Stack Exchange - Space Exploration](https://space.stackexchange.com/) -> Q&A site for spaceflight questions, including GNC.
-* [Stack Exchange - Robotics](https://robotics.stackexchange.com/) -> Q&A site for robotics, relevant for rover GNC.
-* [NASA Space Network (NSN) Forum](https://nsn.jpl.nasa.gov/interactions/forum/) -> Official forum, sometimes has relevant discussions.
-* [Specific project communities (e.g., Orekit Forum, ROS Discourse)](https://forum.orekit.org/, https://discourse.ros.org/) -> Communities built around specific tools listed elsewhere in this document.
+* [Reddit r/space](https://www.reddit.com/r/space/) -> General space news and discussion. [Free]
+* [Reddit r/aerospaceengineering](https://www.reddit.com/r/AerospaceEngineering/) -> More technical discussions, including GNC topics. [Free]
+* [Reddit r/robotics](https://www.reddit.com/r/robotics/) -> Relevant for rover GNC, simulation, perception, and control. [Free]
+* [Stack Exchange - Space Exploration](https://space.stackexchange.com/) -> Q&A site for spaceflight questions, including GNC. [Free]
+* [Stack Exchange - Robotics](https://robotics.stackexchange.com/) -> Q&A site for robotics, relevant for rover GNC. [Free]
+* [NASA Space Network (NSN) Forum](https://nsn.jpl.nasa.gov/interactions/forum/) -> Official forum, sometimes has relevant discussions. [Free Signup Likely Required]
+* [Specific project communities (e.g., Orekit Forum, ROS Discourse)](https://forum.orekit.org/, https://discourse.ros.org/) -> Communities built around specific tools listed elsewhere in this document. [Free]
 
 ## Books & Papers
 
-* [(Aerospace Series) Ashish Tewari-Advanced Control of Aircraft, Spacecraft and Rockets-Wiley (2011)](https://www.wiley.com/en-us/Advanced+Control+of+Aircraft%2C+Spacecraft+and+Rockets-p-9780470745632) -> Optimal attitude control, Guidance, Terminal Guidance for spacecraft with MATLAB® codes.
-* [Sidi, M. (1997). Spacecraft Dynamics and Control: A Practical Engineering Approach (Cambridge Aerospace Series). Cambridge: Cambridge University Press. doi:10.1017/CBO9780511815652](https://www.cambridge.org/core/books/spacecraft-dynamics-and-control/E9CAEE81CD09527C99497FA8C7C35B0A) -> Great book for attitude control using thrusters.
-* [Guidance Navigation and Control for Chang’E-5 Powered Descent](https://spj.science.org/doi/10.34133/2021/9823609) -> Specific example of a recent lunar landing GNC system.
-* [Wie, Bong. (2008). Space Vehicle Dynamics and Control (2nd ed.). AIAA Education Series.](https://arc.aiaa.org/doi/book/10.2514/4.866875) -> Comprehensive textbook covering attitude dynamics, orbital dynamics, and control.
-* [Hughes, Peter C. (1986). Spacecraft Attitude Dynamics. Dover Publications.](https://store.doverpublications.com/0486481492.html) -> Classic text focusing specifically on attitude dynamics and control.
-* [Battin, Richard H. (1999). An Introduction to the Mathematics and Methods of Astrodynamics. AIAA Education Series.](https://arc.aiaa.org/doi/book/10.2514/4.868823) -> Foundational text on astrodynamics, essential for GNC.
-* [Vallado, David A. (2013). Fundamentals of Astrodynamics and Applications (4th ed.). Microcosm Press.](https://www.goodreads.com/book/show/1727996.Fundamentals_of_Astrodynamics_and_Applications) -> Widely used textbook and reference, often comes with software. Check website for potential code snippets.
-* [NASA NTRS (NASA Technical Reports Server)](https://ntrs.nasa.gov/) -> Searchable database of NASA technical reports, many detailing GNC algorithms, simulations, and mission results (e.g., search for "Apollo GNC", "Lunar Landing Guidance", "Terrain Relative Navigation"). Often includes foundational work.
-* [JPL Robotics - Publications](https://www-robotics.jpl.nasa.gov/publications/index.cfm) -> Publications from JPL on robotics, relevant for rover GNC.
+*Note: [OA] indicates Open Access or freely available resource.*
+
+**Textbooks & Foundational Works (Often Paid, Check Libraries):**
+
+*   [(Aerospace Series) Ashish Tewari-Advanced Control of Aircraft, Spacecraft and Rockets-Wiley (2011)](https://www.wiley.com/en-us/Advanced+Control+of+Aircraft%2C+Spacecraft+and+Rockets-p-9780470745632) -> Optimal attitude control, Guidance, Terminal Guidance for spacecraft with MATLAB® codes.
+*   [Sidi, M. (1997). Spacecraft Dynamics and Control: A Practical Engineering Approach (Cambridge Aerospace Series). Cambridge: Cambridge University Press. doi:10.1017/CBO9780511815652](https://www.cambridge.org/core/books/spacecraft-dynamics-and-control/E9CAEE81CD09527C99497FA8C7C35B0A) -> Great book for attitude control using thrusters.
+*   [Wie, Bong. (2008). Space Vehicle Dynamics and Control (2nd ed.). AIAA Education Series.](https://arc.aiaa.org/doi/book/10.2514/4.866875) -> Comprehensive textbook covering attitude dynamics, orbital dynamics, and control.
+*   [Hughes, Peter C. (1986). Spacecraft Attitude Dynamics. Dover Publications.](https://store.doverpublications.com/0486481492.html) -> Classic text focusing specifically on attitude dynamics and control. (Dover editions are often affordable).
+*   [Battin, Richard H. (1999). An Introduction to the Mathematics and Methods of Astrodynamics. AIAA Education Series.](https://arc.aiaa.org/doi/book/10.2514/4.868823) -> Foundational text on astrodynamics, essential for GNC.
+*   [Vallado, David A. (2013). Fundamentals of Astrodynamics and Applications (4th ed.). Microcosm Press.](https://www.goodreads.com/book/show/1727996.Fundamentals_of_Astrodynamics_and_Applications) -> Widely used textbook and reference, often comes with software. Check website for potential code snippets.
+
+**Open Access Papers, Reports & Resources:**
+
+*   [NASA NTRS (NASA Technical Reports Server)](https://ntrs.nasa.gov/) -> [OA] Searchable database of NASA technical reports. Crucial for historical and modern GNC work. Examples:
+    *   Search: "Apollo Guidance Computer", "Lunar Module Descent Guidance", "Terrain Relative Navigation NASA", "Precision Lunar Landing NTRS".
+    *   [Apollo Experience Reports (Series)](https://ntrs.nasa.gov/search?q=apollo%20experience%20report) -> [OA] Contain detailed operational insights, including GNC aspects.
+    *   [Guidance and Control for Lunar Module Touchdown (1967)](https://ntrs.nasa.gov/citations/19670026403) -> [OA] Example historical paper.
+    *   [Autonomous Precision Landing and Hazard Avoidance for Lunar Missions (Multiple Papers)](https://ntrs.nasa.gov/search?q=autonomous%20precision%20landing%20lunar) -> [OA] Search results for more recent NASA work.
+*   [JPL Robotics - Publications](https://www-robotics.jpl.nasa.gov/publications/index.cfm) -> [OA] Publications from JPL on robotics, relevant for rover GNC. Often links to PDF versions.
+*   [arXiv - Physics > Space Physics / Instrumentation & Methods for Astrophysics](https://arxiv.org/list/physics.space-ph/recent) -> [OA] Pre-print server where researchers post papers before/alongside journal publication. Search for relevant keywords.
+*   [ResearchGate / Academia.edu](https://www.researchgate.net/, https://www.academia.edu/) -> Researchers often upload their papers. Access may require signup. Search for specific authors or topics.
+
+**Mission Specific Strategies (Open Access Info):**
+
+*   **Apollo:**
+    *   [Mindell, David A. (2008). Digital Apollo: Human and Machine in Spaceflight. MIT Press.](https://mitpress.mit.edu/9780262633930/digital-apollo/) (Book, check libraries). Excellent analysis of Apollo GNC development and human-machine interaction.
+    *   [Eyles, Don. Sunburst and Luminary: An Apollo Memoir.](https://www.doneyles.com/LM/Tales.html) [OA via Author's Site] Personal accounts and technical details from an AGC programmer.
+    *   [Apollo Lunar Descent and Ascent Trajectories (NASA TN D-6846)](https://ntrs.nasa.gov/citations/19720017001) -> [OA via NTRS] Detailed trajectory analysis.
+*   **Soviet Luna Program:**
+    *   [Harvey, Brian. Soviet and Russian Lunar Exploration (2007). Springer-Praxis.](https://link.springer.com/book/10.1007/978-0-387-73976-2) (Book, check libraries). Comprehensive overview including landing techniques where known.
+    *   [Siddiqi, Asif A. Challenge to Apollo: The Soviet Union and the Space Race, 1945-1974 (NASA SP-2000-4408)](https://history.nasa.gov/SP-4408pt1.pdf) -> [OA via NASA History] Part 1 & 2. Contains details on Luna lander development and mission attempts, including GNC aspects derived from historical analysis.
+    *   Analysis of Luna 9/13/etc. landings can often be found in historical reviews and comparative papers on NTRS or conference archives (search terms like "Luna 9 landing analysis").
+*   **Chinese Chang'e Program:**
+    *   [Li, Chunlai, et al. (2021). China’s Lunar Exploration Program: Present and Future. Space Science Reviews.](https://link.springer.com/article/10.1007/s11214-021-00841-4) -> [OA via SpringerLink] Overview paper, mentions GNC advancements like hazard avoidance.
+    *   [Guidance Navigation and Control for Chang’E-5 Powered Descent and Ascent Mission (Journal of Spacecraft & Rockets, 2021)](https://arc.aiaa.org/doi/abs/10.2514/1.A35018) -> (AIAA Paper, likely requires payment/subscription). Abstract summarizes GNC strategies. Look for related conference presentations by authors (e.g., IAC) which might be open.
+    *   [Landing Site Selection and Traverse Planning for the Chang’e-4 Lander and Rover (Nature Astronomy, 2020)](https://www.nature.com/articles/s41550-019-0813-z) -> (Nature Paper, may require payment/subscription). Describes GNC-related aspects like hazard detection and safe site selection logic.
+    *   [Autonomous hazard avoidance control for Chang'e-3 lunar lander (Science China Technological Sciences, 2014)](https://link.springer.com/article/10.1007/s11431-014-5501-9) -> [OA via SpringerLink] Describes the hazard detection and avoidance strategy used for CE-3.
+*   **Indian Chandrayaan Program:**
+    *   [ISRO Chandrayaan-3 Landing - Official Livestream and Commentary](https://www.youtube.com/watch?v=DLA_64yz8Ss) -> [OA via YouTube] While not a paper, the official commentary during landing describes the phases and GNC actions (rough braking, altitude hold, fine braking, vertical descent).
+    *   [Geethaprasad, G. L., & Nagesh, R. (2023). Chandrayaan-3: India's successful lunar landing mission. Current Science.](https://www.currentscience.ac.in/Volumes/125/05/0525.pdf) -> [OA via Current Science] Overview paper describing mission phases and GNC elements post-landing.
+    *   [Analysis of Chandrayaan-2 Vikram Lander Trajectory (Multiple independent analyses exist, e.g., on arXiv or blogs)](https://arxiv.org/abs/1909.10608) -> [OA via arXiv example] Example of third-party analysis trying to reconstruct GNC events based on telemetry. Search for similar papers.
+    *   [ISRO Technical Reports/Presentations:] Search the official ISRO website publications section or conference proceedings (like IAC) for presentations by ISRO engineers which might contain more details on specific GNC subsystems or algorithms used in Chandrayaan-3.
 
 ## Jobs
 
@@ -229,11 +290,11 @@ This repository compiles useful resources for lunar mission GNC:
 * [Aerospace Corporation Careers](https://aerospace.org/careers) -> Often hires GNC engineers for government oversight roles.
 * [NASA Careers](https://www.nasa.gov/careers/) -> Official job portal for NASA.
 * [ESA Careers](https://jobs.esa.int/) -> Official job portal for ESA.
-* [Specific Company Career Pages] (e.g., SpaceX, Blue Origin, Astrobotic, Intuitive Machines, Lockheed Martin, Northrop Grumman, Draper) -> Check the career pages of companies actively involved in lunar missions.
+* [Specific Company Career Pages] (e.g., SpaceX, Blue Origin, Astrobotic, Intuitive Machines, Firefly Aerospace, Lockheed Martin, Northrop Grumman, Draper) -> Check the career pages of companies actively involved in lunar missions.
 
 ## Movers and shakers on Github
 
-* [Time Craine](https://twitter.com/craintim) -> Real-time GNC systems for Intuitive Machines, private moon lander developers (Note: Primarily Twitter presence, less direct open-source contribution visible).
+* [Time Craine](https://twitter.com/craintim) -> Real-time GNC systems for Intuitive Machines, private moon lander developers (Note: Primarily Twitter/X presence, less direct open-source contribution visible).
 * [Chris Rabotin](https://mobile.twitter.com/CRabotin) ([GitLab](https://gitlab.com/chrisrabotin)) -> GNC engineer on various moon landers, developer of Nyx framework.
 * [Andrew Annex](https://github.com/AndrewAnnex) -> Developer of SpiceyPy and contributor to related Python space science libraries.
 * [Juan Luis Cano Rodríguez](https://github.com/astrojuanlu) -> Core developer of Poliastro and advocate for open-source space software.
@@ -265,4 +326,3 @@ This repository compiles useful resources for lunar mission GNC:
 
 
 <a href="https://www.buymeacoffee.com/chandrabhraman" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/default-orange.png" alt="Buy Me A Coffee" height="41" width="174"></a>
-
